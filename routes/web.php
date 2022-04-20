@@ -16,3 +16,14 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+// rotta catch all
+Route::get("{any?}",
+    function () {
+        return view('guests.home');
+    }
+)->where('any', '.*');
