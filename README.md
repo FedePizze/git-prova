@@ -2,7 +2,7 @@
 
 ## Passi da seguire per importare repo
 1. Cloniamo la repo esistente da GitHub 123445
-2. Composer install
+2. Composer install (Prova)
 3. Npm install
 4. Copia il file .env (cp .env.example .env da riga di comando)
 5. Crea un nuovo DB in phpmyadmin
