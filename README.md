@@ -1,3 +1,15 @@
 # Gestionale di pizze
 
-
+## Passi da seguire per importare repo
+1. Cloniamo la repo esistente da GitHub
+2. Composer install
+3. Npm install
+4. Copia il file .env (cp .env.example .env da riga di comando)
+5. Crea un nuovo DB in phpmyadmin
+6. Configura il file .env per DB e Mail
+7. Rigeneriamo la nostra App Key ( php artisan key:generate )
+8. Cancelliamo la cache delle impostazioni ( php artisan config:clear )
+9. Lanciamo le migrazioni ( php artisan migrate )
+10. Lanciamo i seeder ( php artisan db:seed se abbiamo un metodo definito nella
+DatabaseSeeder.php oppure php artisan db:seed --class=NomeDelSeeder)
+11. Creiamo il link da storage alla cartella public php artisan storage:link
