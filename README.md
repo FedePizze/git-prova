@@ -1,7 +1,7 @@
 # Gestionale di pizze
 
 ## Passi da seguire per importare repo
-1. Cloniamo la repo esistente da GitHub
+1. Cloniamo la repo esistente da GitHub 123445
 2. Composer install
 3. Npm install
 4. Copia il file .env (cp .env.example .env da riga di comando)
