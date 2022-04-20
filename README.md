@@ -37,3 +37,6 @@ DatabaseSeeder.php oppure php artisan db:seed --class=NomeDelSeeder)
 
 ### 2
 - gestione invio ordine -> form invio ordine(api post) e visualizzazione ordine inviato (api get)
+
+
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
